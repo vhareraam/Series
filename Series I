@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+     int a=7,i,b=5,n;
+     cin>>n;
+     for(i=1;i<=n;i++)
+     {
+         if(i%2==1){
+             cout<<a++<<" ";
+         }
+         else{
+             cout<<b++<<" ";
+         }
+         
+         
+     }
+}
