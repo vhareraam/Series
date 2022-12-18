@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int i,n,j,c=0,b=0;
+    cin>>n;
+    for(i=100; i<=200; i++)
+    {
+        for(j=1; j<=i ;j++)
+        {
+            if(i%j==0)
+            {
+                c++;
+                
+            }
+        }
+        if(c==2)
+        {
+            cout<<i<<" ";
+            b++;
+        }
+        c=0;
+        if(b==n)
+        {
+            break;
+        }
+    }
+    
+}
