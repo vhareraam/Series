@@ -1,0 +1,14 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+    int i,n,b=1;
+    cin>>n;
+    for(i=1;i<=n;i++)
+    {
+        b=pow(i,i);
+        cout<<b<<" ";
+    }
+}
+
